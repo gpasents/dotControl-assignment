@@ -1,0 +1,14 @@
+The overall design is good.
+As a user it provides a clear and intuitive interface. 
+It is easy to understand that clicking one of the  movies shown below will provide the user with more details and the way these details are presented is clear and easy to understand.
+
+As a developer the only thing I notice is that initially if no movie is selected then the first movie must be automatically selected?
+
+
+
+----------------Backlog------------------------
+
+1) The component MovieDetails should not be nested inside MovieOverview. Instead they should both be in App.
+2)The functions that make the calls to the api need to be in a seperate file and need to be imported in the components.
+3)The styling needs overall improvement. In some places I use px and in others percent. Some places have inline styling and others are imported from styles.css
+4)The styling needs to be mobile responsive
