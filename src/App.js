@@ -7,8 +7,9 @@ function App() {
   let [currentMovieTitle, setCurrentMovieTitle] = useState('');
 
   useEffect(()=>{
-
   },[currentMovieTitle])
+  
+  
   return (
     <div className="App" >
       <MovieDetails currentMovieTitle={currentMovieTitle} />
