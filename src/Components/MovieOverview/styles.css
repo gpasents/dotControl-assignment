@@ -1,3 +1,9 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
 .allMoviesContainer {
     display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
@@ -11,21 +17,21 @@
     height: 550px;
     width: 370px;
     position: relative;
-    text-align: center;
-    background-position: 'center';
-    background-size: 'cover';
-    background-repeat: 'no-repeat';
+    background-size: cover;
 }
 
-.title {
+.movieCard h3 {
     position: relative;
-    bottom: 25px;
+    top: 400px;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-size: 24px;
     left: 16px;
     color:white;
 }
-.year {
+.movieCard h4 {
     position: relative;
-    bottom: 8px;
+    top: 390px;
     left: 16px;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     color: white;
 }

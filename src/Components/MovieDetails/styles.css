@@ -1,6 +1,38 @@
-p{
-    color: black;
+.detailsContainer{
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-h1{
+.detailsContainer h1{
+    position: relative;
+    left: 215px;
+    top: 260px;
+    font-size: 90px;
+    margin: 0;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;    
     color: white;
+}
+.detailsContainer p{
+    position: relative;
+    height: 132px;
+    width: 570px;
+    left: 215px;
+    top:280px;
+    margin: 0;
+    overflow-wrap: break-word;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-size: 18px;
+    color: white;
+}
+.detailsContainer button{
+    position: relative;
+    display: inline-block;
+    top: 300px;
+    left: 215px;
+    width: 179px;
+    height: 57px;
+    border-radius: 28px;
+    background: #FF2345 100%;
+    border: none;
 }

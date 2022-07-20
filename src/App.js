@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
 import MovieDetails from './Components/MovieDetails/MovieDetails';
 import MovieOverview from './Components/MovieOverview/MovieOverview';
+import './App.css';
 
 function App() {
-  let [currentMovieTitle,setCurrentMovieTitle] = useState('');
-  
+  let [currentMovieTitle, setCurrentMovieTitle] = useState('');
+
+  useEffect(()=>{
+
+  },[currentMovieTitle])
   return (
-    <div className="App">
-      <MovieDetails currentMovieTitle={currentMovieTitle}/>
-      <MovieOverview setCurrentMovieTitle = {setCurrentMovieTitle}/>
+    <div className="App" >
+      <MovieDetails currentMovieTitle={currentMovieTitle} />
+      <MovieOverview setCurrentMovieTitle={setCurrentMovieTitle} />
     </div>
   );
 }
